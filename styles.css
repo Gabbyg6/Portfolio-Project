@@ -1,0 +1,119 @@
+body{
+    background-image:url("../img/Background.png");
+    background-size: cover center;
+  }
+   
+    
+    h1, h2, h3 {
+      font-family: "Geneva", cursive; 
+    }
+    
+    h2 {
+      color: #a833c0;
+      background-color: rgba(0, 0, 0, 0.247);
+     }
+      
+    
+    header h2 {
+      color: #CEC8FF; }
+
+
+    .jumbotron {
+      margin: 0;
+      padding: 30px;
+      background-image: linear-gradient(to right, #f141f198, rgba(160, 9, 152, 0.384), #560161);
+      color: rgb(8, 1, 1); }
+    
+    .row-content {
+      padding: 50px 0;
+      border-bottom: 1px ridge;
+      min-height: 200px; }
+    
+    .navbar {
+      background-image: linear-gradient(to right, #0c010c91, #360034, #560161);
+
+    }
+    
+    .tab-content {
+      border: 1px solid #DDD;
+      border-top: none;
+      padding: 10px; }
+    
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); }
+    
+    .carousel {
+      border: ridge #ca37dd;
+     }
+    
+    #carouselButton {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 100; }
+
+      div.thumbnail {
+        margin: 5px;
+        border: 1px solid rgb(227, 13, 235);
+        float: left;
+        width: 180px;
+      }
+      
+      div.thumbnail:hover {
+        border: 1px solid rgb(24, 11, 201);
+      }
+      
+      div.desc {
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.281);;
+      }
+
+      .thumbnail img {
+        height:250px;
+        width:100%;
+    }
+
+    .sidenav {
+      height: 100%; 
+      width: 160px; 
+      position: sticky; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background-color: rgb(39, 3, 39);
+      overflow-x: hidden; 
+      padding-top: 20px;
+    }
+    
+
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #f477ff;
+      display: block;
+    }
+    
+ 
+    .sidenav a:hover {
+      color: #0faaa2;
+    }
+    
+    
+    .main {
+      margin-left: 160px; 
+      padding: 0px 10px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+
+    audio::-webkit-media-controls-play-button{
+      background-color:rgb(84, 3, 95);
+        display: block;
+        border-radius: 20px;
+        margin:0 auto;
+      }
